@@ -20,7 +20,7 @@ docker-compose up
 ### command to check data in database:
 
 1. docker exec -it material-2_postgres_1 /bin/bash
-2. psql -Uairflow
+2. psql -U airflow
 3. SELECT * FROM users;
 
 ## Scheduling Dag depend on Dataset trigger
